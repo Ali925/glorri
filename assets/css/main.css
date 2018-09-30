@@ -101,6 +101,17 @@ button{
 	cursor: pointer;
 }
 
+.hidden{
+	display: none;
+}
+
+.main-about-staff{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
 /********************************/
 /***** HEADER ******/
 
@@ -181,12 +192,12 @@ header{
 }
 
 .header-content-text{
-	width: 33.4vw;
+	width: 47.4vw;
 	margin-top: 6.15vw;
 }
 
 .header-content-text > h3{
-	font-size: 3vw;
+	font-size: 2.35vw;
 	color: #fefefe;
 	letter-spacing: -0.04vw;
 	font-weight: normal;
@@ -203,7 +214,7 @@ header{
 	letter-spacing: -0.03vw;
   color: #fefefe;
 	font-size: 1.36vw;
-	max-width: 85%;
+	max-width: 78%;
 	line-height: 1.86;
 }
 
@@ -228,7 +239,7 @@ header{
 /******* MAIN **********/
 
 .main-top{
-	width: 64vw;
+	width: 82vw;
 	padding: 0 5vw;
 	margin-top: 4.68vw;
 	margin-left: auto;
@@ -239,7 +250,7 @@ header{
 	letter-spacing: -0.04vw;
   text-align: center;
 	line-height: 1.42;
-	font-size: 2.5vw;
+	font-size: 2.25vw;
 	font-weight: normal;
 }
 
@@ -403,11 +414,11 @@ header{
 	width: 25.74vw;
 }
 
-.main-about-staff:nth-child(2){
+.main-about-staff.first-el{
 	margin-left: 18.26vw;
 }
 
-.main-about-staff:nth-child(3){
+.main-about-staff.last-el{
 	margin-left: 10.9vw;	
 }
 
@@ -562,7 +573,7 @@ footer{
 }
 
 .footer-main-left-text{
-	width: 35vw;
+	width: 33vw;
 }
 
 .footer-main-left-text > p{
