@@ -33,4 +33,12 @@ $(document).ready(function(){
 			$(".main-about-staff:nth-child("+(last+2)+")").hide();
 		}
 	});
+	
+	$(".header-top-mob > a").click(function(){
+		$(".header-top-mob > nav").show();
+	});
+	
+	$(".close-btn").click(function(){
+		$(".header-top-mob > nav").hide();
+	});
 });
